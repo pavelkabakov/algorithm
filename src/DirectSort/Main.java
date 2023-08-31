@@ -1,11 +1,12 @@
-package HeapSort2;
+package DirectSort;
+
 
 public class Main {
     public static void main(String args[]) {
 
         int array[] = {1, 3, 5, 7, 9, 2, 4, 6, 8};
 
-        HeapSort object = new HeapSort();
+        DirectSort object = new DirectSort();
 
         System.out.println("Несортированный массив");
         object.printArray(array);
